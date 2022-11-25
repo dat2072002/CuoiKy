@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="82dp"
+        android:src="@drawable/anh" />
+
+    <TextView
+        android:id="@+id/textviewHoTen"
+        android:layout_width="291dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Họ tên sinh viên"
+        android:textColor="#2600ff"
+        android:textSize="22sp" />
+</LinearLayout>
